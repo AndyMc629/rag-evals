@@ -1,0 +1,1 @@
+https://dev.to/stephenc222/how-to-use-postgresql-to-store-and-query-vector-embeddings-h4b

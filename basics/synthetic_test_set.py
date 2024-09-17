@@ -1,4 +1,5 @@
 from dotenv import load_dotenv
+import pandas as pd
 import os
 
 load_dotenv()
@@ -29,4 +30,5 @@ testset = generator.generate_with_langchain_docs(documents, test_size=10, distri
 
 df_testset = testset.to_pandas()
 
-print(df.head())
+print(df_testset.head())
+
